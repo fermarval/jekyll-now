@@ -1,4 +1,9 @@
-Esta entrada viene como parte de la instalación de **Sharetribe**, por tanto instalaremos la versión de Ruby que actualmente esta soportada por este sistema de Marketplace. Según la documentación oficial, Sharetribe soporta la vesión 2.3.4, esto puede variar con el tiempo, es recomentable revisar la [página de requerimientos](https://github.com/sharetribe/sharetribe#installation) primero. 
+<p align="center">
+  <img src="https://static1.squarespace.com/static/571a021020c64744b886f00f/t/57377e61f85082cb3f21a393/1463254633314/">
+  <img src="http://www.omgubuntu.co.uk/wehelp/images/dah.png">
+</p>
+
+Esta entrada viene como parte de los requisitos de la instalación de **Sharetribe** en este caso de Ruby. Instalaremos la versión que actualmente esta soportada por este sistema de Marketplace. Según la documentación oficial, Sharetribe soporta la vesión 2.3.4, esto puede variar con el tiempo, es recomentable revisar la [página de requerimientos](https://github.com/sharetribe/sharetribe#installation) primero. 
 
 Para facilitar el trabajo, instalaremos [RVM](https://rvm.io/rvm/install) (Ruby Version Manager), una herramienta que nos permitirá instalar y cambiar diferentes versiones de Ruby.
 
