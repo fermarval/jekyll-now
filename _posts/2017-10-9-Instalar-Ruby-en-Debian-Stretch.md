@@ -2,7 +2,7 @@ Esta entrada viene como parte de la instalación de **Sharetribe**, por tanto in
 
 Para facilitar el trabajo, instalaremos [RVM](https://rvm.io/rvm/install) (Ruby Version Manager), una herramienta que nos permitirá instalar y cambiar diferentes versiones de Ruby.
 
-* Instalamos **curl**  y **dirmngr** (si no lo tenemos ya instalado):
+* Nos aseguramos de tener instalados **cURL**  y **dirmngr**:
 
 ```
 sudo apt install curl
