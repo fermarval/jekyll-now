@@ -10,7 +10,7 @@
 
 * **Bundler**: Lo instalamos de la siguiente manera: `gem install bundler`.
 
-* **Node**: La versión **6.9** es la que actualmente usa, no se garantiza que funcione correctamente con otras versiones. Si necesitas usar diferentes versiones de Node, considera usar `n` or `nvm`. [Instalar Node.js en Debian](https://fermarval.github.io/Instalar-Node.JS-en-Debian-Stretch/).
+* **Node**: La versión **6.9** es la que actualmente usa, no se garantiza que funcione correctamente con otras versiones. Si necesitas usar diferentes versiones de Node, considera usar `n` or `nvm`. [Instalar Node.js en Debian](https://fermarval.github.io/Instalar-Node.js-en-Debian-Stretch/).
 
 * **Git**: Lo instalamos de la siguiente manera: `sudo apt-get install git-core`.
 
