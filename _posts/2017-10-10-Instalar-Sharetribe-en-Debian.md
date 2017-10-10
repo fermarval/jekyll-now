@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://irp-cdn.multiscreensite.com/b3c540b6/dms3rep/multi/tablet/Sharetribe-1279x226.Logo.no-margin.png">
+</p>
+
 **Parte I. Instalando los requisitos**
 
 * **Ruby**: La versión **2.3.4** es la que actualmente usa, no se garantiza que funcione correctamente con otras versiones. Si necesitas varias versiones de Ruby, se recomienda usar `rvm`. [Instalar Ruby en Debian](https://fermarval.github.io/Instalar-Ruby-en-Debian-Stretch/).
