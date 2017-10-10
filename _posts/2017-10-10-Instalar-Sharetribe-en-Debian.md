@@ -1,13 +1,19 @@
-Parte I. Instalando los requisitos
+**Parte I. Instalando los requisitos**
 
-1. **Ruby**. La versión 2.3.4 es la que actualmente se usa, no se garantiza que funcione correctamente con otra versión inferior. Si necesitas varias versiones de Ruby, se recomienda usar **RVM**. [Instalar Ruby en Debian]()
+* **Ruby**: La versión **2.3.4** es la que actualmente usa, no se garantiza que funcione correctamente con otras versiones. Si necesitas varias versiones de Ruby, se recomienda usar `rvm`. [Instalar Ruby en Debian](https://fermarval.github.io/Instalar-Ruby-en-Debian-Stretch/).
 
-RubyGems
-Bundler: gem install bundler
-Node. Version 6.9 is currently used and we don't guarantee everything works with other versions. If you need multiple versions of Node, consider using n or nvm.
-Git
-A database. Only MySQL 5.7 has been tested, so we give no guarantees that other databases (e.g. PostgreSQL) work. You can install MySQL Community Server two ways:
-If you are on a Mac, use homebrew: brew install mysql (highly recommended). Also consider installing the MySQL Preference Pane to control MySQL startup and shutdown. It is packaged with the MySQL downloadable installer, but can be easily installed as a stand-alone.
-Download a MySQL installer from here
-Sphinx. Version 2.1.4 has been used successfully, but newer versions should work as well. Make sure to enable MySQL support. If you're using OS X and have Homebrew installed, install it with brew install sphinx --with-mysql
-Imagemagick. If you're using OS X and have Homebrew installed, install it with brew install imagemagick
+* **RubyGems**: Disponible con la descarga y compiplación de Ruby.
+
+* **Bundler**: Lo instalamos de la siguiente manera: `gem install bundler`.
+
+* **Node**: La versión **6.9** es la que actualmente usa, no se garantiza que funcione correctamente con otras versiones. Si necesitas usar diferentes versiones de Node, considera usar `n` or `nvm`. [Instalar Node.js en Debian](https://fermarval.github.io/Instalar-Node.JS-en-Debian-Stretch/).
+
+* **Git**: Lo instalamos de la siguiente manera: `sudo apt-get install git-core`.
+
+* **Una base de datos**. Solo ha sido testeada la versión **MySQL 5.7**, no esta garantizado que en otras versiones (p.ej. PostgreSQL) funcione. [Instalar MySQL 5.7 en Debian]().
+
+* **Sphinx**: La versión 2.1.4 funciona correctamente, las nuevas versiones podrían funcionar igual de bien. Asegurate de activar el soporte MySQL. [Instalar Sphinx en Debian]().
+
+* **Imagemagick**: Lo instalamos de la siguiente manera: `sudo apt-get install imagemagick`.
+
+**Parte II. Configurando el entorno de de desarrollo**
