@@ -21,3 +21,20 @@
 * **Imagemagick**: Lo instalamos de la siguiente manera: `sudo apt-get install imagemagick`.
 
 **Parte II. Configurando el entorno de de desarrollo**
+
+```
+git clone git://github.com/sharetribe/sharetribe.git
+cd sharetribe
+git checkout latest
+```
+
+```
+bundle install
+```
+
+```
+npm install
+```
+Si da problemas de permisos, prueba con: `sudo npm install -g npm`
+
+
