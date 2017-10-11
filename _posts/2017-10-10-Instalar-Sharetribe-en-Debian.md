@@ -16,25 +16,46 @@
 
 * **Una base de datos**. Solo ha sido testeada la versión **MySQL 5.7**, no esta garantizado que en otras versiones (p.ej. PostgreSQL) funcione. [Instalar MySQL 5.7 en Debian]().
 
-* **Sphinx**: La versión 2.1.4 funciona correctamente, las nuevas versiones podrían funcionar igual de bien. Asegurate de activar el soporte MySQL. [Instalar Sphinx en Debian]().
+* **Sphinx**: La versión 2.1.4 funciona correctamente, las nuevas versiones podrían funcionar igual de bien:
+
+```
+sudo apt-get install libmysqlclient20 libodbc1 libpq5
+wget http://sphinxsearch.com/files/sphinxsearch_2.2.11-release-1~xenial_amd64.deb
+sudo dpkg -i sphinxsearch_2.2.11-release-1~xenial_amd64.deb
+```
 
 * **Imagemagick**: Lo instalamos de la siguiente manera: `sudo apt-get install imagemagick`.
 
 **Parte II. Configurando el entorno de de desarrollo**
 
+* Vamos a cualquier carpeta donde clonar el repósito, por ejemplo la carpeta en /home de tu usuario:
 ```
 git clone git://github.com/sharetribe/sharetribe.git
 cd sharetribe
 git checkout latest
 ```
+Con esto último comprobamos que hemos clonado correctamente la ultima versión del repositorio.
 
+* Instalamos el bundle:
 ```
 bundle install
 ```
 
+* Instalamos los módulos de node:
 ```
 npm install
 ```
-Si da problemas de permisos, prueba con: `sudo npm install -g npm`
+Este proceso suele tardar unos minutos.
 
+* Creamos el archivo `database.yml` copiando el archivo de configuración de la base de datos de ejemplo:
+```
+cp config/database.example.yml config/database.yml
+```
+
+* Añadimos los detalles de la configuración de la base de datos en el archivo `config/database.yml`.
+
+* Creamos el archivo `config.yml` copiando el archivo de configuración de ejemplo:
+```
+cp config/config.example.yml config/config.yml
+```
 
