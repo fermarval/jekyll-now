@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://irp-cdn.multiscreensite.com/b3c540b6/dms3rep/multi/tablet/Sharetribe-1279x226.Logo.no-margin.png">
+  <img src="https://github.com/fermarval/fermarval.github.io/blob/master/images/sharetribetittle.png?raw=true">
 </p>
 
 Sharetribe es una plataforma sotware de código abierto para crear tu propio marketplace online con el espitirú de Airbnb, Uber o eBay.
