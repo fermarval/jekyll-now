@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/fermarval/fermarval.github.io/blob/master/images/sharetribetittle.png">
+  <img src="https://raw.githubusercontent.com/fermarval/fermarval.github.io/master/images/sharetribetittle.png">
 </p>
 
 Sharetribe es una plataforma sotware de código abierto para crear tu propio marketplace online con el espitirú de Airbnb, Uber o eBay.
@@ -10,9 +10,9 @@ El software de Sharetribe es mantenido y desarrollado principalmente por Sharetr
 
 **1. Clonamos el repósito desde Github**
 Para ello necesitaremos tener Git instalado antes:
-```
+`
 sudo apt-get install git-core
-```
+`
 Nos situamos en la carpeta del usuario (/home/TU-USUARIO) y clonamos el repósito:
 ```
 git clone git://github.com/sharetribe/sharetribe.git
